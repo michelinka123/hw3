@@ -1,0 +1,128 @@
+<!--Starting with doctype declaration-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Page is going to use all chars, punctuation marks, symbols-->
+		<meta charset = "utf-8">
+		<title>Contact | Roitgarts Gardens Fine Florals</title>
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<!--INTERNAL STYLE SHEET-->
+		<style type="text/css">
+
+			#main-header	
+			{
+				background-color:#FDF8F2;
+			}
+			.center 
+			{
+  				display: block;
+  				margin-left: auto;
+  				margin-right: auto;
+  				width: 50%;
+			}
+			#main-footer	
+			{
+				text-align:center;
+				font-size: 16px;
+				background-color:#FDF8F2;
+				color:#745342;
+				font-family:"Optima";
+			}
+			#footer-image
+			{
+				margin-left: auto;
+    			margin-right: auto;
+			}
+			.socials
+			{
+				float: center; 
+				height:32px; width: 32px; 
+				margin-right: 1%; 
+				margin-bottom: 0.5em;
+				padding-bottom: 30px;
+				padding-right: 10px;
+			}
+			.gallery
+			{
+				float: center; 
+				height: 300px; width: 300px; 
+				margin-right: 1%; 
+				margin-bottom: 0.5em;
+				padding-bottom: 30px;
+				padding-right: 10px;
+			}
+			form
+			{
+				display: inline-block;	
+				margin-left: 80px;
+				margin-right: 80px;
+				padding-left: 150px;
+				padding-right: 150px;
+			}
+		</style>
+	</head>
+	<body>
+		<header id = "main-header">
+			<a href="index.html"> <img src="logo.png" alt="logo" class = "center"> 
+			</a>
+		</header>	
+		<nav>
+			<br>
+			<a href="hw3services.html">Services</a>
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			<a href="hw3contactus.html">Contact Us</a>
+		<main>
+			<h1>Let's Start the Conversation. We're Excited to Meet You!</h1>
+			<form action='#' method='post'>
+				<label>Name:</label> 
+				<input type="text" name='name' id='the_name' required='1'>
+				<br>
+				<br>
+				<label>Email:</label> 
+				<input type="email" name='email' id='the_email' required='1'>
+				<br>
+				<br>
+				<label>What can we help you with today?</label> 
+		<br>
+		<br>
+		<input type="radio" name="service" value="collection">Our floral collection and inventory
+		<input type="radio" name="service" value="event">Event Consultation
+		<input type="radio" name="service" value="workshop">Workshops
+		<input type="radio" name="service" value="privatelessons">Private Lessons
+		<br>
+		<input type="radio" name="service" value="grouplessons">Group Lessons
+		<input type="radio" name="service" value="other">Other
+		<input type="radio" name="service" value="gardening">Seeds, gardening tools and tips
+		<br>
+		<br>
+		<input type = "submit" value = "Submit">
+		</form>
+		<br>
+		<br>
+	
+	</main>
+		
+		<footer id = "main-footer">
+			<br>
+			<br>
+			<div>11 Lakeville Drive, Roslyn NY 11576 | 516.620.4567</div>
+			<br>
+			<br>
+			<!--Social Media/Email Links-->
+			<a href="https://www.facebook.com" target="_blank"> <img id = "footer-image" src="facebookLOGO.png" class = "socials">
+			
+			<a href="https://www.instagram.com" target="_blank"> <img id = "footer-image" src="instagramLOGO.png" class = "socials">
+			
+			<a href="https://www.pinterest.com" target="_blank"> <img id = "footer-image" src="pinterest.png" class = "socials">
+			
+			<a href="mailto:michelinka123@gmail.com"> <img id = "footer-image" src="gmail.png" class = "socials">
+		</footer>
+	</body>
+</html>

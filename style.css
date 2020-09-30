@@ -1,0 +1,31 @@
+h1 
+{ 
+	font-family:"Optima", cursive; 			
+	color:#745342;
+	text-align: center;
+}
+h2 
+{ 
+	font-family:"Optima", cursive; 
+	color:#745342;
+}  
+nav
+{
+	text-align:center; 
+	font-size: 21px;
+	font-family:"Optima", cursive; 
+	color: #745342;
+} 
+nav a
+{
+	text-decoration: none;
+}
+p
+{
+	font-family:"Optima", cursive; 
+	color:#745342;
+}
+footer a 
+{
+	text-decoration: none;
+}
